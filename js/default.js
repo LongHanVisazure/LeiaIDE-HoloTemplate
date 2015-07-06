@@ -62,7 +62,7 @@ function addObjectsToScene(){
 function addLights(){
     //Add Lights Here
     var xl = new THREE.DirectionalLight( 0x555555 );
- 	xl.position.set( 1, 0, 2 );
+ 	xl.position.set( 1, 0, 2.0 );
  	scene.add( xl );
  	var pl = new THREE.PointLight(0x111111);
  	pl.position.set(-20, 10, 20);
